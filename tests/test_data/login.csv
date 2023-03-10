@@ -1,0 +1,7 @@
+Test Case ID,Test Case Description,User Name,Password,Error Message
+TC-1,Correct username and correct password should redirect to main page,test.username,Prevasio123!,
+TC-2,Incorrect username and correct password should produce error message,test_username,Prevasio123!,The username or password you entered is invalid
+TC-3,Correct username and incorrect password should produce error message,test.username,password,The username or password you entered is invalid
+TC-4,Incorrect username and incorrect password should produce error message,test_username,Prevasio123!,The username or password you entered is invalid
+TC-5,Blank username should produce error message,,Prevasio123!,No username provided
+TC-6,Blank password should produce error message,test.username,,No password provided
